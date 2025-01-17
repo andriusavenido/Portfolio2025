@@ -1,2 +1,2 @@
 # Portfolio2025
-2025's Personal Developer Portfolio
+Andrius's Personal Developer Portfolio Website for 2025
