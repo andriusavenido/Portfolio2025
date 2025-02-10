@@ -1,16 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--text);
+  background-color: var(--background-950);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --text: #ffffff;
+  --background: #0f171f;
+  --primary: #f65159;
+  --secondary: #273249;
+  --accent: #f65159;
+
+  --text-50: #f2f2f2;
+  --text-100: #e6e6e6;
+  --text-200: #cccccc;
+  --text-300: #b3b3b3;
+  --text-400: #999999;
+  --text-500: #808080;
+  --text-600: #666666;
+  --text-700: #4d4d4d;
+  --text-800: #333333;
+  --text-900: #1a1a1a;
+  --text-950: #0d0d0d;
+
+  --background-50: #eef2f7;
+  --background-100: #dde6ee;
+  --background-200: #baccde;
+  --background-300: #98b2cd;
+  --background-400: #7599bd;
+  --background-500: #537fac;
+  --background-600: #42668a;
+  --background-700: #324c67;
+  --background-800: #213345;
+  --background-900: #111922;
+  --background-950: #080d11;
+
+  --primary-50: #fee7e8;
+  --primary-100: #fccfd1;
+  --primary-200: #fa9ea3;
+  --primary-300: #f76e75;
+  --primary-400: #f53d46;
+  --primary-500: #f20d18;
+  --primary-600: #c20a13;
+  --primary-700: #91080f;
+  --primary-800: #61050a;
+  --primary-900: #300305;
+  --primary-950: #180102;
+
+  --secondary-50: #eef1f6;
+  --secondary-100: #dee3ed;
+  --secondary-200: #bdc6db;
+  --secondary-300: #9caac9;
+  --secondary-400: #7a8eb8;
+  --secondary-500: #5971a6;
+  --secondary-600: #475b85;
+  --secondary-700: #364463;
+  --secondary-800: #242d42;
+  --secondary-900: #121721;
+  --secondary-950: #090b11;
+
+  --accent-50: #fee7e8;
+  --accent-100: #fccfd1;
+  --accent-200: #fa9ea3;
+  --accent-300: #f76e75;
+  --accent-400: #f53d46;
+  --accent-500: #f20d18;
+  --accent-600: #c20a13;
+  --accent-700: #91080f;
+  --accent-800: #61050a;
+  --accent-900: #300305;
+  --accent-950: #180102;
 }
 
+.bg-pattern {
+  background-color: var(--background-950);
+  opacity: 1;
+  background-image: radial-gradient(#f65159 0.9500000000000001px, var(--background-950) 0.9500000000000001px);
+  background-size: 50px 50px;
+}

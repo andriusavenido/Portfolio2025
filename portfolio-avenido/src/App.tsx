@@ -1,12 +1,14 @@
-import './App.css'
+import './index.css'
 
-function App() {
+import Landing from './sections/Landing'
+
+const App: React.FC =()=> {
   
   return (
-    <div className='text-red-500'>
-      hello
+    <div className=''>
+      <Landing></Landing>
     </div>
   )
 }
 
-export default App
+export default App;
