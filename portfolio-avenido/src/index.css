@@ -19,7 +19,7 @@
   --background: #0f171f;
   --primary: #f65159;
   --secondary: #273249;
-  --accent: #f65159;
+  --accent: #f76e75;
 
   --text-50: #f2f2f2;
   --text-100: #e6e6e6;
@@ -85,6 +85,12 @@
 .bg-pattern {
   background-color: var(--background-950);
   opacity: 1;
-  background-image: radial-gradient(#f65159 0.9500000000000001px, var(--background-950) 0.9500000000000001px);
+  background-image: radial-gradient(var(--accent) 0.9500000000000001px, var(--background-950) 0.9500000000000001px);
   background-size: 50px 50px;
+}
+
+.unclickable{
+  -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
 }
