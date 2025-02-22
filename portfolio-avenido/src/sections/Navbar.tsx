@@ -14,12 +14,12 @@ const Navbar: React.FC = () => {
         transition={{ type: "spring", stiffness: 50, damping:15}}>
         ANDRIUS AVENIDO
         </motion.h1>
-        <motion.h2 className="text-center lg:text-start sm:text-center md:text-center  unclickable"
+        <motion.h3 className="text-center lg:text-start sm:text-center md:text-center  unclickable"
         initial={{ x: "-50vw"}}
         animate = {{ x:0 }}
         transition={{ type: "spring", stiffness: 70, damping:16}}>
-          Software Engineer | Ottawa ON
-        </motion.h2>
+          Passionate Software Developer | Based in Ottawa, Ontario | Software Engineering @ uOttawa
+        </motion.h3>
         
       </div>
       <div className="flex flex-row gap-8 items-center justify-end bg-[var(--background-950)] px-4 mb-6">

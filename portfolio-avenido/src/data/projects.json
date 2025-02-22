@@ -1,11 +1,25 @@
 [
     {
-        "title":"",
-        "date":"",
-        "association":"",
-        "location":"",
+        "title":"Companion Accessibility Tool & AI Chatbot",
+        "date":"Sep 2024 - Dec 2024",
+        "association":"University of Ottawa",
+        "location":"Ottawa ON",
+        "shortDescription":"A GPT-4o powered tool that empowers educators to enhance course accessibility. Seamlessly integrated with Ally by Canvas, it simplifies accessibility reporting and provides actionable insights for improving course content.",
+        "longDescription":"",
+        "link":"",
+        "img":"",
+        "technologies":["React.js","Node.js","GPT-4o","Express.js","MongoDB"]
+    },
+    {
+        "title":"Event Attendance Management System",
+        "date":"Sep 2024 - Dec 2024",
+        "association":"University of Ottawa",
+        "location":"Ottawa ON",
         "shortDescription":"",
-        "longDescription":""
+        "longDescription":"",
+        "link":"",
+        "img":"",
+        "technologies":["Java","Android Studio","Firebase Real-time Database","Espresso","JUnit"]
     }
 
 ]
