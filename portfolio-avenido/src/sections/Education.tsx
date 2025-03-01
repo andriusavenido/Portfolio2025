@@ -1,4 +1,4 @@
-import { div } from "motion/react-client";
+//import { motion } from "motion/react-client";
 import imgUOttawa from "../assets/University-of-Ottawa-Logo.png";
 //TODO: scroll animation?
 const Education: React.FC = () => {
@@ -17,7 +17,7 @@ const Education: React.FC = () => {
           <p>Hello</p>
         </div>
       </div>
-      <div className=" flex items-center">
+      <div className="flex items-center">
         <h3 className="text-2xl">Relvant Courses</h3>
         <div className="p-8">
             <CourseBlock courseName={"Intro to Software Engineering"} skills={["OOP"]}></CourseBlock>
