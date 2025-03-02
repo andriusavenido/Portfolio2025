@@ -3,6 +3,7 @@ import './index.css'
 import Landing from './sections/Landing'
 import Education from './sections/Education'
 import Experience from './sections/Experience'
+import Projects from './sections/Projects'
 
 const App: React.FC =()=> {
   
@@ -11,6 +12,7 @@ const App: React.FC =()=> {
       <Landing></Landing>
       <Education></Education>
       <Experience></Experience>
+      <Projects></Projects>
     </div>
   )
 }

@@ -1,49 +1,58 @@
+import expList from "../data/experience.json";
+
 const Experience: React.FC = () => {
   return (
-    <div className="h-screen mx-40 py-16">
-      <h2 className="font-bold text-5xl">Experience</h2>
+    <div className="h-screen mx-4 sm:mx-8 md:mx-16 lg:mx-40 min-h-screen ">
+      <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl">Experience</h2>
       <hr className="border-[var(--primary)] w-1/2 my-2" />
-      <div className="flex items-center">
-       
+      <div className="flex items-center mt-4 ">
+        {expList.map((experience) =>(<Block details={experience}/>))}
       </div>
     </div>
   );
 };
 
-const Block: React.FC = () =>{
+type ExpDetails = {
+    "title":string,
+    "date":string,
+    "company":string,
+    "location":string,
+    "tags":string[],
+    "description":string,
+    "img":string
+}
+
+const Block: React.FC<{details: ExpDetails}> = ({details}) =>{
   return (
-    <div className="p-8">
-    <h3 className="font-bold text-3xl">
-     Junior Service Management Analyst - Full-time Co-op
-    </h3>
-    <h4 className="font-light">Canadian Border Service Agency | Jan 2025 - May 2025</h4>
-    <p>Dean's List: Fall 2023, Winter 2024, Fall 2024</p>
-    <p className="pt-2">
-      At my time at the University of Ottawa, I have gained in-depth
-      knowledge into computer science, software development, and the
-      professional engineering practice.{" "}
-    </p>
-    <ul className="p-4 font-light w-192">
-      <li className="mb-2">
-        
-        learned about web development, indepth concepts in Java and
-        Python, professional engineering practices, discrete mathematics,
-        and physics. This foundational knowledge helped me build
-        problem-solving skills and understand the core principles of
-        software development and engineering.{" "}
-      </li>
-      <li>
-        
-        delved deeper into the low-level processes of hardware and
-        software, gaining fundamental knowledge of computer operations. I
-        explored the principles of software engineering and frameworks,
-        and studied algorithms to enhance my code problem solving and
-        optimization skills. I applied my knowledge of full stack
-        development to work with a real world client to produce software.
-      </li>
-    </ul>
-  </div>
+    <div className="flex flex-col lg:flex-row items-start p-4 md:p-8 bg-[var(--background)] w-full">
+      <div>
+        <img
+          className="w-32 md:w-48 my-4 md:my-8 border-2 p-2 border-[var(--accent)] rounded-2xl hidden lg:block"
+          src={`/assets/cbsa.png`}
+        />
+      </div>
+      <div className="lg:ml-8">
+        <h3 className="font-bold text-2xl md:text-3xl">
+          {details.title}
+        </h3>
+        <h4 className="pt-1 font-semibold text-[var(--accent)]">
+          {details.company}
+        </h4>
+        <h4 className="font-light">
+          {details.location}, {details.date}
+        </h4>
+        <p className="pt-2">
+          {details.description}
+        </p>
+        <div className="mt-2 p-2 font-light flex-wrap">
+          {details.tags.map((tag, index) => (
+            <div className="mx-1 py-1 px-2 bg-[var(--background-800)] inline-block rounded-sm" key={index}>{tag}</div>
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }
+
 
 export default Experience;
