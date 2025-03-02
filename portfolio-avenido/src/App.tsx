@@ -7,7 +7,7 @@ import Experience from './sections/Experience'
 const App: React.FC =()=> {
   
   return (
-    <div className=''>
+    <div className='flex flex-col'>
       <Landing></Landing>
       <Education></Education>
       <Experience></Experience>
