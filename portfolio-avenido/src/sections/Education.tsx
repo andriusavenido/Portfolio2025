@@ -2,7 +2,7 @@ import imgUOttawa from "/assets/University-of-Ottawa-Logo.png";
 
 const Education: React.FC = () => {
   return (
-    <div className="lg:h-screen mx-4 sm:mx-8 md:mx-16 lg:mx-40 py-16 min-h-screen">
+    <div className="static mx-4 sm:mx-8 md:mx-16 lg:mx-40 py-16 min-h-screen">
       <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl">Education</h2>
       <hr className="border-[var(--primary)] w-1/2 my-2" />
       <div className="flex flex-col lg:flex-row items-center">
@@ -12,11 +12,11 @@ const Education: React.FC = () => {
           alt="University of Ottawa"
         />
         <div className="p-8">
-          <h3 className="font-bold text-2xl sm:text-3xl md:text-4xl">
+          <h3 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-2">
             Bachelors of Applied Science, Software Engineering Co-op
           </h3>
           <h4 className="font-light text-lg sm:text-xl">
-            Ottawa ON | 2023 - 2027
+            Univerity of Ottawa | Ottawa ON | 2023 - 2027
           </h4>
           <p className="pt-2">Dean's List: Fall 2023, Winter 2024, Fall 2024</p>
           <p className="pt-2">

@@ -49,7 +49,7 @@ const SpinningText: React.FC = () => {
 const TorusScene: React.FC = () => {
   return (
     
-      <Canvas shadows camera={{ position: [1, 0, 2.5] }} className="w-full h-full">
+      <Canvas shadows camera={{ position: [1, 0, 2.5] }} >
         <ambientLight intensity={0.3} />
         <directionalLight 
         position={[5, 5, 6]} 

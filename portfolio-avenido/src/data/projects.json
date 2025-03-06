@@ -3,12 +3,12 @@
         "title":"Companion Accessibility Tool & AI Chatbot",
         "date":"Sep 2024 - Dec 2024",
         "association":"University of Ottawa",
-        "application":"Website",
+        "application":"Full Stack Website | For a Client",
         "location":"Ottawa ON",
-        "description":"Engineered Companion, a full stack application. A GPT-4o powered tool that empowers educators to enhance course accessibility. Features accessibility-tuned responses and conversation history state management. ",
+        "description":"Engineered Companion, a full stack application chatbot and resource tool. A GPT-4o powered tool that empowers university educators to enhance course accessibility on the Canvas Learning Management System. Features a fully animated and responsive chatbot UI, accessibility-tuned responses, conversation history state management, and a .CSV file parser. This was my semester long project where, I worked with a team of peers for an external client in both planning, design, and software development.",
         "link":"",
         "img":"companionlanding.png",
-        "technologies":["React.js","Node.js","GPT-4o","Express.js","MongoDB"]
+        "technologies":["React.js","Node.js","GPT-4o","Express.js","MongoDB","JWT Token"]
     },
     {
         "title":"Event Attendance Management System",
