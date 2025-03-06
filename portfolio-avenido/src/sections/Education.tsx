@@ -6,24 +6,41 @@ const Education: React.FC = () => {
       <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl">Education</h2>
       <hr className="border-[var(--primary)] w-1/2 my-2" />
       <div className="flex flex-col lg:flex-row items-center">
-      <img
-  className="w-64 lg:block md:hidden sm:hidden my-8 border-2 border-[var(--accent)] rounded-2xl"
-  src={imgUOttawa}
-  alt="University of Ottawa"
-/>
+        <img
+          className="w-64 lg:block md:hidden sm:hidden my-8 border-2 border-[var(--accent)] rounded-2xl"
+          src={imgUOttawa}
+          alt="University of Ottawa"
+        />
         <div className="p-8">
           <h3 className="font-bold text-2xl sm:text-3xl md:text-4xl">
             Bachelors of Applied Science, Software Engineering Co-op
           </h3>
-          <h4 className="font-light text-lg sm:text-xl">Ottawa ON | 2023 - 2027</h4>
+          <h4 className="font-light text-lg sm:text-xl">
+            Ottawa ON | 2023 - 2027
+          </h4>
           <p className="pt-2">Dean's List: Fall 2023, Winter 2024, Fall 2024</p>
-          <p className="pt-2">At my time at the University of Ottawa, I have gained in-depth knowledge in computer science, software development, and the professional engineering practice.</p>
+          <p className="pt-2">
+            At my time at the University of Ottawa, I have gained in-depth
+            knowledge in computer science, software development, and the
+            professional engineering practice.
+          </p>
           <ul className="p-4 font-light">
             <li className="mb-2">
-              <span className="text-[var(--accent)]">First Year:</span> I learned about web development, in-depth concepts in Java and Python, professional engineering practices, discrete mathematics, and physics. This foundational knowledge helped me build problem-solving skills and understand the core principles of software development and engineering.
+              <span className="text-[var(--accent)]">First Year:</span> I
+              learned about web development, in-depth concepts in Java and
+              Python, professional engineering practices, discrete mathematics,
+              and physics. This foundational knowledge helped me build
+              problem-solving skills and understand the core principles of
+              software development and engineering.
             </li>
             <li>
-              <span className="text-[var(--accent)]">Second Year:</span> I delved deeper into the low-level processes of hardware and software, gaining fundamental knowledge of computer operations. I explored the principles of software engineering and frameworks, and studied algorithms to enhance my code problem-solving and optimization skills. I applied my knowledge of full-stack development to work with a real-world client to produce software.
+              <span className="text-[var(--accent)]">Second Year:</span> I
+              delved deeper into the low-level processes of hardware and
+              software, gaining fundamental knowledge of computer operations. I
+              explored the principles of software engineering and frameworks,
+              and studied algorithms to enhance my code problem-solving and
+              optimization skills. I applied my knowledge of full-stack
+              development to work with a real-world client to produce a software product.
             </li>
           </ul>
         </div>
@@ -32,10 +49,22 @@ const Education: React.FC = () => {
       <div className="flex flex-wrap items-center mt-8">
         <h3 className="text-2xl sm:text-3xl">Relevant Courses</h3>
         <div className="p-8 flex flex-wrap justify-center">
-          <CourseBlock courseName={"Intro to Software Engineering"} skills={["OOP", "QA", "UX", "Java", "Frameworks"]} />
-          <CourseBlock courseName={"Computer Architecture I"} skills={["Assembly", "Digital System Design"]} />
-          <CourseBlock courseName={"Data Structures and Algorithms"} skills={["ADT", "Trees", "Sorting", "Searching"]} />
-          <CourseBlock courseName={"Eng. Product Development"} skills={["Project Management", "Full Stack Development"]} />
+          <CourseBlock
+            courseName={"Intro to Software Engineering"}
+            skills={["OOP", "QA", "UX", "Java", "Frameworks"]}
+          />
+          <CourseBlock
+            courseName={"Computer Architecture I"}
+            skills={["Assembly", "Digital System Design"]}
+          />
+          <CourseBlock
+            courseName={"Data Structures and Algorithms"}
+            skills={["ADT", "Trees", "Sorting", "Searching"]}
+          />
+          <CourseBlock
+            courseName={"Eng. Product Development"}
+            skills={["Project Management", "Full Stack Development"]}
+          />
         </div>
       </div>
     </div>
