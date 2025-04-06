@@ -8,7 +8,7 @@ import Projects from './sections/Projects'
 const App: React.FC =()=> {
   
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col gap-8'>
       <Landing></Landing>
       <Education></Education>
       <Experience></Experience>

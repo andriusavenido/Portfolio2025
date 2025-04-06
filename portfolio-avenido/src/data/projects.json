@@ -5,10 +5,21 @@
         "association":"University of Ottawa",
         "application":"Full Stack Website | For a Client",
         "location":"Ottawa ON",
-        "description":"Engineered Companion, a full stack application chatbot and resource tool. A GPT-4o powered tool that empowers university educators to enhance course accessibility on the Canvas Learning Management System. Features a fully animated and responsive chatbot UI, accessibility-tuned responses, conversation history state management, and a .CSV file parser. This was my semester long project where, I worked with a team of peers for an external client in both planning, design, and software development.",
-        "link":"",
+        "description":"Engineered Companion, a full stack application chatbot and resource tool. A GPT-4o powered tool that empowers university educators to enhance course accessibility on the Canvas Learning Management System. Features a fully animated and responsive chatbot UI, accessibility-tuned responses, conversation history state management, and a .CSV file parser. This was my semester long project where, I worked with a team of peers for an external client in both planning, design, and software development. This was my semester long project for my engineering product development class.",
+        "link":"https://makerepo.com/andriusavenido/2111.companion-lms-accessibility-tool-by-companion-dev-team-",
         "img":"companionlanding.png",
         "technologies":["React.js","Node.js","GPT-4o","Express.js","MongoDB","JWT Token"]
+    },
+    {
+        "title":"GPU Caddy",
+        "date":"March 2025 - Present",
+        "association":"Personal Project",
+        "application":"Backend Application",
+        "location":"Ottawa ON",
+        "description":"Developed a personal webscraping application that can scrape computer component product data off of various vendor websites. Features robust scraping processes, in-house postgreSQL database, and exposed API endpoints for external clients to access data. This project allowed me to delve deep into learning fundamental Spring principles and lifecyles such as dependency injection and service layers. It also allowed me to practice and hone my software architecture skills in modular, scalable, and maintainable code.",
+        "link":"https://github.com/andriusavenido/GPUCaddy",
+        "img":"gpucaddy.png",
+        "technologies":["Java","Spring Boot","Selenium","PostgreSQL","Maven"]
     },
     {
         "title":"Event Attendance Management System",
@@ -16,10 +27,10 @@
         "association":"University of Ottawa",
         "application":"Mobile Application",
         "location":"Ottawa ON",
-        "description":"",
-        "link":"",
-        "img":"",
+        "description":"Contributed into creating an Event Attendance Management Mobile app in Android, focused on user records managment and time reporting workflows. This was my semester long project for my intro to software engineering class. We used Firebase cloud services for real-time data storage and mobile notifications. This projecty helped me grow my knowledge and skills in various Java testing frameworks and tools such as JUnit and Espresso, for unit and UI testing.",
+        "link":"https://www.youtube.com/watch?v=6SPIzxIJfsI",
+        "img":"eams.png",
         "technologies":["Java","Android Studio","Firebase","Espresso","JUnit"]
     }
-
+   
 ]

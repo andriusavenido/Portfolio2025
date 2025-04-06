@@ -22,7 +22,7 @@ const Education: React.FC = () => {
           <p className="pt-2">
             At my time at the University of Ottawa, I have gained in-depth
             knowledge in computer science, software development, and the
-            professional engineering practice.
+            professional engineering practice. I always strive for academic excellence and have consistently challenged myself through rigorous coursework, collaborative projects, and personal learning goals.
           </p>
           <ul className="p-4 font-light">
             <li className="mb-2">
