@@ -1,5 +1,5 @@
 import expList from "../data/experience.json";
-
+import img from "/images/cbsa.png";
 const Experience: React.FC = () => {
   return (
     <div className="static h-screen mx-4 sm:mx-8 md:mx-16 lg:mx-40 min-h-screen ">
@@ -30,7 +30,7 @@ const Block: React.FC<{ details: ExpDetails }> = ({ details }) => {
       <div className="">
         <img
           className="lg:w-64 w-32 border-2 p-2 border-[var(--accent)] rounded-2xl hidden lg:block"
-          src={`/assets/cbsa.png`}
+          src={img}
         />
       </div>
       <div className="lg:ml-8 flex-1">
