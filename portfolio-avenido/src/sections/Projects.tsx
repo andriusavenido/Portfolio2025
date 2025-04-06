@@ -29,7 +29,7 @@ const Block: React.FC<{details:ProjectDetails}> = ({ details }) =>{
     <div className="static flex lg:flex-row flex-col items-start p-4 md:p-8 bg-[var(--background)] w-full min-h-80 my-2 rounded-xl">
       <img
           className=" size-full max-w-1/2 hidden md:block rounded-xl border-2 border-[var(--accent)]"
-          src={`/assets/${details.img}`}
+          src={`/images/${details.img}`}
         />
         <div className="flex flex-col ml-4 ">
        

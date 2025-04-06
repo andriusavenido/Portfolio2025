@@ -1,8 +1,8 @@
 import "../index.css";
 import { motion } from "motion/react";
-import githubIcon from "/assets/github.svg";
-import linkedinIcon from "/assets/linkedin.svg";
-import mailIcon from "/assets/mail.svg";
+import githubIcon from "/images/github.svg";
+import linkedinIcon from "/images/linkedin.svg";
+import mailIcon from "/images/mail.svg";
 
 const Navbar: React.FC = () => {
   return (

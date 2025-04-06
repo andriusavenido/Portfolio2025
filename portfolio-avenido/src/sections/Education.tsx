@@ -1,4 +1,4 @@
-import imgUOttawa from "/assets/University-of-Ottawa-Logo.png";
+import imgUOttawa from "/images/University-of-Ottawa-Logo.png";
 
 const Education: React.FC = () => {
   return (
